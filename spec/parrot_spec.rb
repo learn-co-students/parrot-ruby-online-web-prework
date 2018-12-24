@@ -22,6 +22,4 @@ describe '#parrot' do
 
     expect(phrase).to eq("Pretty bird!")
   end
-  def parrot(squawk)
-    puts = "Squawk!" 
 end
