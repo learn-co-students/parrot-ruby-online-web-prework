@@ -1,4 +1,4 @@
-require_relative './spec_helper'
+ require_relative './spec_helper'
 require_relative '../parrot.rb' # Code your solution in this file
 
 describe '#parrot' do
@@ -22,4 +22,9 @@ describe '#parrot' do
 
     expect(phrase).to eq("Pretty bird!")
   end
+end
+def parrot(Squawk, "Pretty bird")
+  parrot="Squawk"
+  phrase="Pretty bird"
+  puts "parrot,phrase"
 end
